@@ -1,14 +1,35 @@
 html {
     background-color: #74000B;
+    border: 80px solid #000000  ;
 }
 
 .navBar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #000000;
 }
 
 div a {
     color: #ffd3d7;
     text-decoration: none;
+    padding: 30px;
+}
+
+p {
+    color: #ffd3d7;
+    text-align: left;
+}
+
+img {
+    width: 550px;
+}
+
+.blinkgif {
+    justify-content: center;
+}
+
+.artFlexbox {
+    display: flex;
+    flex-direction: row;
 }
