@@ -11,7 +11,7 @@ html {
 }
 
 div a {
-    color: #ffd3d7;
+    color: #ffeaec;
     text-decoration: none;
     padding: 30px;
 }
@@ -20,8 +20,8 @@ p {
     width: 50%;
     margin: auto;
     padding: 25px;
-    border:#000000 double 10px;
-    color: #ffd3d7;
+    border:#ffc400 double 10px;
+    color: #ffeaec;
     text-align: left;
 }
 
@@ -29,7 +29,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-bottom: #000000 double 8px;
+    border-bottom: #ffc400 double 8px;
 }
 
 .blinkgif {
@@ -40,18 +40,20 @@ p {
     padding-top: 50px;
     height: 800px;
     justify-content: center;
+    border-left: #ffc400 double 8px;
+    border-right: #ffc400 double 8px;
     
 }
 
 .leftIMG {
-    width: 470px;
+    width: 463px;
     justify-content: left;
     padding-top: 380px;
     border-left: #000000 solid 2px;
 }
 
 .rightIMG {
-    width: 470px;
+    width: 463px;
     justify-content: right;
     padding-top: 380px;
     border-right: #000000 solid 2px;
@@ -64,12 +66,12 @@ p {
 
 footer {
     text-align: center;
-    color: #ffd3d7;
+    color: #ffeaec;
     padding-top: 15px;
 
 }
 
 footer a {
-    color: #ffd3d7;
+    color: #ffeaec;
     text-decoration: none;
 }

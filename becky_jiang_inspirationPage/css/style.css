@@ -1,3 +1,12 @@
 html {
     background-color: #74000B;
+    border: 80px solid #000000;
 }
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+
