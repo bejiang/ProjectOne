@@ -17,19 +17,35 @@ div a {
 }
 
 p {
+    width: 50%;
+    margin: auto;
+    border-bottom: #74000B solid 400px;
     color: #ffd3d7;
     text-align: left;
-}
-
-img {
-    width: 550px;
-}
-
-.blinkgif {
-    justify-content: center;
 }
 
 .artFlexbox {
     display: flex;
     flex-direction: row;
+}
+
+.blinkgif {
+    width: 550px;
+}
+
+.tallIMG {
+    height: 2000px;
+}
+
+.leftIMG {
+    width: 200px;
+}
+
+.rightIMG {
+    width: 200px;
+}
+
+.blinkgif {
+    display: block;
+    margin: auto
 }
