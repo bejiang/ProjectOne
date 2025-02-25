@@ -25,8 +25,10 @@ p {
 }
 
 .artFlexbox {
+    margin-bottom: auto;
     display: flex;
     flex-direction: row;
+
 }
 
 .blinkgif {
@@ -34,15 +36,18 @@ p {
 }
 
 .tallIMG {
-    height: 2000px;
+    height: 1000px;
 }
 
 .leftIMG {
-    width: 200px;
+    width: 350px;
+    justify-content: left;
+    margin-bottom: auto;
 }
 
 .rightIMG {
-    width: 200px;
+    width: 350px;
+    justify-content: right;
 }
 
 .blinkgif {
