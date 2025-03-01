@@ -42,18 +42,21 @@ p {
     max-width: 90%;
     border-left: #ffc400 double 8px;
       /* border-right: #ffc400 double 8px; */
+    object-fit: contain;
     
 }
 
 .leftIMG {
     padding-top: 400px;
     max-width: 100%;
+    object-fit: contain;
 }
 
 .rightIMG {
     padding-top: 400px;
     max-width: 100%;
     border-left: #ffc400 double 8px;
+    object-fit: contain;
 }
 
 .blinkgif {
