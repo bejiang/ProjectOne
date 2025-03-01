@@ -1,6 +1,6 @@
 html {
     background-color: #74000B;
-    border: 80px solid #000000  ;
+    border: 80px solid #000000;
 }
 
 .navBar {
@@ -28,7 +28,7 @@ p {
 .artFlexbox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     border-bottom: #ffc400 double 8px;
 }
 
@@ -38,24 +38,21 @@ p {
 
 .tallIMG {
     padding-top: 50px;
-    height: 800px;
-    justify-content: center;
+    max-width: 90%;
     border-left: #ffc400 double 8px;
     border-right: #ffc400 double 8px;
     
 }
 
 .leftIMG {
-    width: 463px;
-    justify-content: left;
-    padding-top: 380px;
+    padding-top: 400px;
+    max-width: 100%;
     border-left: #000000 solid 2px;
 }
 
 .rightIMG {
-    width: 463px;
-    justify-content: right;
-    padding-top: 380px;
+    padding-top: 400px;
+    max-width: 100%;
     border-right: #000000 solid 2px;
 }
 
