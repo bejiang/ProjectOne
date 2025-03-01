@@ -10,3 +10,61 @@ html {
     background-color: #000000;
 }
 
+h2 {
+    color: #ffeaec;
+}
+
+p {
+    color: #ffeaec;
+    font-family: 'Patrick Hand';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.flexCavener {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: #ffc400 double 8px;
+    align-items: baseline;
+}
+
+.flexCavener img {
+    max-width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.flexYu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: #ffc400 double 8px;
+    align-items: baseline;
+}
+
+.flexYu img {
+    border: #ffc400 double 8px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.flexGlaive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: #ffc400 double 8px;
+    align-items: baseline;
+}
+
+.flexGlaive img {
+    border: #ffc400 double 8px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+footer {
+    text-align: center;
+    color: #ffeaec;
+    padding-top: 25px;
+}

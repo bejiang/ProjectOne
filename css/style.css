@@ -6,7 +6,7 @@ html {
 .navBar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #000000;
 }
 
@@ -14,17 +14,20 @@ div a {
     color: #ffeaec;
     text-decoration: none;
     padding: 30px;
-    background-color: rgb(73, 201, 41);
 }
 
 p {
     justify-content: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 25px;
     border:#ffc400 double 10px;
     color: #ffeaec;
     text-align: left;
+
+    font-family: 'Patrick Hand';
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .artFlexbox {
@@ -41,10 +44,10 @@ p {
 
 .tallIMG {
     padding-top: 50px;
-    max-width: 90%;
+    max-width: 98%;
+    object-fit: contain;
     border-left: #ffc400 double 8px;
     border-right: #ffc400 double 8px;
-    object-fit: contain;
     
 }
 
