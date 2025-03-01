@@ -6,7 +6,7 @@ html {
 .navBar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #000000;
 }
 
@@ -43,7 +43,7 @@ p {
     padding-top: 50px;
     max-width: 90%;
     border-left: #ffc400 double 8px;
-      /* border-right: #ffc400 double 8px; */
+    border-right: #ffc400 double 8px;
     object-fit: contain;
     
 }
@@ -58,7 +58,6 @@ p {
 .rightIMG {
     padding-top: 400px;
     max-width: 100%;
-    border-left: #ffc400 double 8px;
     object-fit: contain;
 }
 
