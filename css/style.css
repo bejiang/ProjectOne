@@ -17,6 +17,7 @@ div a {
 }
 
 p {
+    justify-content: center;
     width: 50%;
     margin: auto;
     padding: 25px;
@@ -40,20 +41,19 @@ p {
     padding-top: 50px;
     max-width: 90%;
     border-left: #ffc400 double 8px;
-    border-right: #ffc400 double 8px;
+      /* border-right: #ffc400 double 8px; */
     
 }
 
 .leftIMG {
     padding-top: 400px;
     max-width: 100%;
-    border-left: #000000 solid 2px;
 }
 
 .rightIMG {
     padding-top: 400px;
     max-width: 100%;
-    border-right: #000000 solid 2px;
+    border-left: #ffc400 double 8px;
 }
 
 .blinkgif {
