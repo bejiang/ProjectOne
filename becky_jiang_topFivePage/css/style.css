@@ -9,3 +9,9 @@ html {
     justify-content: space-evenly;
     background-color: #000000;
 }
+
+div a {
+    color: #ffeaec;
+    text-decoration: none;
+    padding: 30px;
+}
