@@ -4,6 +4,7 @@ html {
     
     font-family: 'Patrick Hand';
     color: #ffeaec;
+    font-weight: 400;
 }
 
 .navBar {
@@ -23,7 +24,6 @@ html {
 
 h2 {
     font-size: 28px;
-    font-weight: 400;
     
     justify-content: center;
     text-align: center;
@@ -33,7 +33,6 @@ h2 {
 
 p {
     font-size: 24px;
-    font-weight: 400;
     
     justify-content: center;
     width: 80%;
@@ -93,7 +92,7 @@ footer {
     margin: auto;
     
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #ffeaec;
     padding-top: 50px;
 }
@@ -101,14 +100,12 @@ footer {
 footer p {
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
 }
 
 
 footer a{
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
 
     color: #ffeaec;
     text-decoration: none;

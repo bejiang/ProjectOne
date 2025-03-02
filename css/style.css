@@ -85,7 +85,7 @@ footer {
     margin: auto;
     
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #ffeaec;
     padding-top: 50px;
 }
@@ -94,14 +94,12 @@ footer p {
     color: #ffeaec;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
 }
 
 
 footer a{
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
 
     color: #ffeaec;
     text-decoration: none;
