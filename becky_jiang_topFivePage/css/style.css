@@ -1,6 +1,8 @@
 html {
     background-color: #74000B;
     border: 80px solid #000000;
+
+    color: #ffeaec;
     font-family: 'Patrick Hand';
 }
 
@@ -22,7 +24,6 @@ html {
 }
 
 p {
-    color: #ffeaec;
     text-decoration: none;
     padding: 30px;
 
@@ -49,7 +50,6 @@ ol {
 
 ul {
 
-    color: #ffeaec;
     text-decoration: none;
     padding: 30px;
     justify-content: center;
@@ -68,9 +68,7 @@ ul {
     flex-basis: 100%
 }
 
-ol li {
-    align-items: center;
-}
+
 
 ol p {
     padding-top: 35px;

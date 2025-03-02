@@ -3,6 +3,7 @@ html {
     border: 80px solid #000000;
     
     font-family: 'Patrick Hand';
+    color: #ffeaec;
 }
 
 .navBar {
@@ -27,7 +28,6 @@ p {
     margin: auto;
     padding: 25px;
     border:#ffc400 double 10px;
-    color: #ffeaec;
     text-align: left;
 
     font-family: 'Patrick Hand';
