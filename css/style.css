@@ -10,10 +10,12 @@ html {
     background-color: #000000;
 }
 
-div a {
+.navBar a {
     color: #ffeaec;
     text-decoration: none;
     padding: 30px;
+    color: #ffeaec;
+    font-family: 'Patrick Hand';
 }
 
 p {

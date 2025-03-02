@@ -10,8 +10,73 @@ html {
     background-color: #000000;
 }
 
-div a {
+.navBar a {
     color: #ffeaec;
     text-decoration: none;
     padding: 30px;
+    color: #ffeaec;
+    font-family: 'Patrick Hand';
+}
+
+p {
+    color: #ffeaec;
+    text-decoration: none;
+    padding: 30px;
+
+    font-family: 'Patrick Hand';
+    font-size: 22px;
+    font-weight: 300;
+}
+
+ol {
+
+    color: #ffeaec;
+    text-decoration: none;
+    padding: 30px;
+    justify-content: center;
+}
+
+.oList {
+    border-right: #ffc400 double 4px;
+}
+
+ul {
+
+    color: #ffeaec;
+    text-decoration: none;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+.flexLists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: #ffc400 double 8px;
+}
+
+ol li {
+    align-items: center;
+}
+
+ol p {
+    padding-top: 35px;
+    list-style-position: inside;
+    align-items: center;
+}
+
+ol img {
+    width: 30%;
+    object-fit: contain;
+}
+
+ul p {
+    padding-top: 35px;
+}
+
+ul img {
+    width: 30%;
+    object-fit: contain;
 }
