@@ -1,6 +1,8 @@
 html {
     background-color: #74000B;
     border: 80px solid #000000;
+    
+    font-family: 'Patrick Hand';
 }
 
 .navBar {
@@ -15,7 +17,8 @@ html {
     text-decoration: none;
     padding: 30px;
     color: #ffeaec;
-    font-family: 'Patrick Hand';
+
+    font-size: 20px;
 }
 
 h2 {
@@ -24,8 +27,7 @@ h2 {
 
 h2 {
     color: #ffeaec;
-    font-family: 'Patrick Hand';
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 400;
     
     justify-content: center;
@@ -36,7 +38,6 @@ h2 {
 
 p {
     color: #ffeaec;
-    font-family: 'Patrick Hand';
     font-size: 24px;
     font-weight: 400;
     
@@ -90,15 +91,21 @@ p {
     object-fit: contain;
 }
 
+/*add footer!*/
+
 footer {
     justify-content: center;
     text-align: center;
     margin: auto;
+    
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffeaec;
+    padding-top: 50px;
 }
 
 footer p {
     text-align: center;
-    padding-top: 30px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -106,9 +113,9 @@ footer p {
 
 footer a{
     text-align: center;
-    padding-top: 30px;
     font-size: 18px;
     font-weight: 400;
 
+    color: #ffeaec;
     text-decoration: none;
 }

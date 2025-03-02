@@ -1,6 +1,8 @@
 html {
     background-color: #74000B;
     border: 80px solid #000000;
+    
+    font-family: 'Patrick Hand';
 }
 
 .navBar {
@@ -15,12 +17,13 @@ html {
     text-decoration: none;
     padding: 30px;
     color: #ffeaec;
-    font-family: 'Patrick Hand';
+
+    font-size: 20px;
 }
 
 p {
     justify-content: center;
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 25px;
     border:#ffc400 double 10px;
@@ -28,7 +31,7 @@ p {
     text-align: left;
 
     font-family: 'Patrick Hand';
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -41,7 +44,8 @@ p {
 }
 
 .blinkgif {
-    width: 550px;
+    width: 40%;
+    object-fit: contain;
 }
 
 .tallIMG {
@@ -50,6 +54,8 @@ p {
     object-fit: contain;
     border-left: #ffc400 double 8px;
     border-right: #ffc400 double 8px;
+
+    object-fit: contain;
     
 }
 
@@ -71,14 +77,32 @@ p {
     margin: auto
 }
 
-footer {
-    text-align: center;
-    color: #ffeaec;
-    padding-top: 15px;
+/*footer*/
 
+footer {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffeaec;
+    padding-top: 50px;
 }
 
-footer a {
+footer p {
+    color: #ffeaec;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+footer a{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
     color: #ffeaec;
     text-decoration: none;
 }
